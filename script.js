@@ -9,7 +9,7 @@ function describeSelf (name, age, favouriteFood) {
 const personsinfo = `My name is ${name} and I'm ${age} years old. My favourite food is ${favouriteFood}.`
 return personsinfo;
 }
-
+//storing result in a variable
 const infoAnna = describeSelf ("Anna", 30, "pizza");
 
 const infoGustav = describeSelf ("Gustav", 28,"pasta");
